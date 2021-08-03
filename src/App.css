@@ -1,0 +1,83 @@
+.vh-50 {
+    height: 50vh;
+}
+.w-51 {
+    width: 30%;
+}
+.vh-60 {
+    height: 70vh;
+}
+.round {
+    border-radius: 20px;
+}
+.cbtn {
+    font-size: 25px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    /* padding: 20px 20px; */
+}
+
+.cbtn:hover {
+    background-color: #20bf6b;
+}
+input {
+    height: 30px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width: 70%;
+    border-bottom: 2px solid purple;
+    outline: none;
+}
+.ol {
+    margin-top: 40px;
+}
+
+.li {
+    text-align: left;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #8566aa;
+    text-transform: capitalize;
+    padding-left: 5px;
+}
+.todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.todo .fa-times-circle {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8566aa;
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: aliceblue;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.fa-edit {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8566aa;
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: aliceblue;
+    font-size: 12px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.todo .fa-times-circle:hover {
+    background-color: crimson;
+}
+.todo .fa-edit:hover {
+    background-color: green;
+}
